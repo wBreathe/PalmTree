@@ -5,7 +5,7 @@
 # Author: Yunru Wang
 # E-mail: yunruw@outlook.com
 # Created Time: 2024-01-30 14:23
-# Last Modified: 2024-01-30 17:18
+# Last Modified: 2024-02-04 17:21
 ###########################
 import os
 import argparse
@@ -27,7 +27,6 @@ def main(args):
         print(f)
         os.system(f'{args.ghidra_path}support/analyzeHeadless {args.project_dir}\
                 {args.project_name}\
-                -noanalysis \
                 -import {f} \
                 -overwrite \
                 -scriptPath {args.script_path} \
