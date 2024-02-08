@@ -1,3 +1,13 @@
+test branch - ghidra cfg
+- to do
+  - cfg
+      - case conversion
+      - special tokens, say 'rel'
+  - dfg
+      - painful, so give up.
+angr branch - in construction
+
+
 # 🌴PalmTree
 
 This is the official repository for 🌴PalmTree, which is a pre-train Language model for assembly. We will actively update it.
